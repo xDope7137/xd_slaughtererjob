@@ -8,3 +8,5 @@ Add this into your shared.lua
 	["packagedchicken"] 		 			 = {["name"] = "packagedchicken", 							["label"] = "Packaged Chicken", 					    ["weight"] = 4000, 		["type"] = "item", 		["image"] = "packagedchicken.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Packaged Chicken"},
 
 --
+
+For any help head over to https://discord.gg/7MQ5fEgRp7
