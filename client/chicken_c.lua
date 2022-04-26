@@ -1,7 +1,3 @@
-
----------------------------------------------
---------tego lepiej nie ruszaj ponizej-------
----------------------------------------------
 local kurczak1
 local kurczak2
 local kurczak3
@@ -125,11 +121,6 @@ Citizen.CreateThread(function()
 			DrawMarker(2, przetworniaX2, przetworniaY2, przetworniaZ2+0.25, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.25, 0.2, 0.1, 255, 0, 0, 255, 0, 0, 0, 1, 0, 0, 0)
 			DrawMarker(2, pakowanieX, pakowanieY, pakowanieZ+0.25, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.25, 0.2, 0.1, 255, 0, 0, 255, 0, 0, 0, 1, 0, 0, 0)
 			DrawMarker(2, pakowanieX2, pakowanieY2, pakowanieZ2+0.25, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.25, 0.2, 0.1, 255, 0, 0, 255, 0, 0, 0, 1, 0, 0, 0)
-
-			--DrawMarker(27, przetworniaX, przetworniaY, przetworniaZ-0.97, 0, 0, 0, 0, 0, 0, 0.90, 0.90, 0.90, 255, 255, 255, 200, 0, 0, 0, 0)
-			--DrawMarker(27, przetworniaX2, przetworniaY2, przetworniaZ2-0.97, 0, 0, 0, 0, 0, 0, 0.90, 0.90, 0.90, 255, 255, 255, 200, 0, 0, 0, 0)
-			--DrawMarker(27, pakowanieX, pakowanieY, pakowanieZ-0.97, 0, 0, 0, 0, 0, 0, 0.90, 0.90, 0.90, 255, 255, 255, 200, 0, 0, 0, 0)
-			--DrawMarker(27, pakowanieX2, pakowanieY2, pakowanieZ2-0.97, 0, 0, 0, 0, 0, 0, 0.90, 0.90, 0.90, 255, 255, 255, 200, 0, 0, 0, 0)
 		else
 			Citizen.Wait(1500)
 		end
@@ -303,7 +294,6 @@ function SellKurczaki()
 				ClearPedTasks(GetPlayerPed(-1))
 				DeleteEntity(prop)
 			else
-			--ESX.ShowNotification("~r~Nie masz nic na sprzedaż")
 				XD.Functions.Notify('You don\'t have enough Chickens','error')
 			end
 		else

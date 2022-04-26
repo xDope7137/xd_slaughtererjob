@@ -1,11 +1,4 @@
 
-XD = nil
-
-Citizen.CreateThread(function() 
-    while XD == nil do
-        TriggerEvent(Framework, function(obj) XD = obj end)    
-        Citizen.Wait(200)
-    end
-end)
+XD = exports['qb-core']:GetCoreObject()
 
 GetItemInfo = "XD:GetItemInfo"
